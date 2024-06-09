@@ -1,0 +1,16 @@
+.sidebar {
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+    @media (max-width: 768px) {
+    .sidebar {
+      transform: translateX(-100%);
+    }
+  }
+  
